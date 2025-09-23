@@ -58,6 +58,17 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+.escol-link {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.escol-link:hover {
+  color: grey;
+  text-decoration: none;
+}
+
 .logo {
   font-size: 2rem;
 }
@@ -357,9 +368,13 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
+/* PROJECTS AND INTERNSHIP SECTION */
 
 #projects {
+  position: relative;
+}
+
+#internships {
   position: relative;
 }
 
@@ -372,6 +387,13 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  object-fit: cover;
+}
+
+.internship-img {
+  border-radius: 2rem;
+  width: 30%;
+  height: 30%;
   object-fit: cover;
 }
 
