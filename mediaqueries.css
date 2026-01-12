@@ -6,6 +6,9 @@
     .about-containers {
       flex-wrap: wrap;
     }
+    #projects .about-containers {
+      flex-wrap: nowrap;
+    }
     #contact,
     #projects {
       height: fit-content;
@@ -67,6 +70,13 @@
     .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
+    }
+    #projects .about-containers {
+      flex-wrap: nowrap;
+    }
+    #projects .details-container {
+      flex: 0 0 calc(100% - 2rem);
+      min-width: 280px;
     }
     .contact-info-container {
       margin: 0;

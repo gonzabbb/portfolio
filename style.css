@@ -407,6 +407,41 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* Horizontal scrolling for projects */
+#projects .experience-detail-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(163, 163, 163) transparent;
+}
+
+#projects .experience-detail-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+#projects .experience-detail-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#projects .experience-detail-container::-webkit-scrollbar-thumb {
+  background-color: rgb(163, 163, 163);
+  border-radius: 4px;
+}
+
+#projects .about-containers {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+#projects .details-container {
+  flex: 0 0 calc((100% - 4rem) / 3);
+  min-width: 300px;
+}
+
 
 /* Contact */
 
